@@ -317,7 +317,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4525365e3bf8c644298c69e9722c0ff4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trashPrefab: {fileID: 6896943981482745402, guid: 264f27321398a19428a990c7d115d7fb, type: 3}
+  trashPrefab:
+  - {fileID: 6896943981482745402, guid: 264f27321398a19428a990c7d115d7fb, type: 3}
+  - {fileID: 6896943981482745402, guid: 25425224beb43bd45bd5cddf39ae2eed, type: 3}
+  - {fileID: 6896943981482745402, guid: a7dd2ff7d431fa44ead1ae400229eaa1, type: 3}
   spawnRangeX: {x: -250, y: 250}
   spawnRangeZ: {x: -250, y: 250}
   spawnHeight: 300
