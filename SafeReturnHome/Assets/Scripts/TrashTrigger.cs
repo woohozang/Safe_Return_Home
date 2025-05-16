@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class TrashTrigger : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+            LifePoint hp = other.gameObject.GetComponent<LifePoint>(); //LifePoint.cs 참조
+            if(hp != null)
+            {
+                hp.DeHP(1); //LifePoint의 DeHP함수 안에 count에 1을 초기화하여 충돌시, 1씩 감소
+            }
             Debug.Log("Player collided with trash. Destroying trash.");
             Destroy(gameObject);
         }

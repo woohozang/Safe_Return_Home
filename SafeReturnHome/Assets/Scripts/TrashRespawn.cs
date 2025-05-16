@@ -12,9 +12,12 @@ public class TrashRespawn : MonoBehaviour
     public float spawnHeight = 0.5f; // 쓰레기 생성 높이
     public float spawnInterval = 3.0f; // 생성 간격 (초)
     private float nextSpawnTime = 0.0f;
+    public bool isGameOver = false;
 
     void Update()
     {
+        if (isGameOver) return;
+
         if (Time.time >= nextSpawnTime)
         {
             nextSpawnTime = Time.time + spawnInterval;
@@ -43,5 +46,16 @@ public class TrashRespawn : MonoBehaviour
             Instantiate(AllTrash, spawnPos, Quaternion.identity);
         }
         
+    }
+    public void ClearAllTrash()
+    {
+        foreach (GameObject trash in trashList)
+        {
+            if (trash != null)
+                Destroy(trash);
+        }
+
+        trashList.Clear();
+        isGameOver = true; // 스폰도 중단
     }
 }

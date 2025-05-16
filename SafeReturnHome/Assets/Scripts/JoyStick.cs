@@ -8,7 +8,7 @@ public class JoyStick : MonoBehaviour
     
     public float baseSpeed = 30f; //기본 속도
     public float boost = 2f;
-    private bool isBoosted = false;
+    public bool isBoosted = false;
     
 
     

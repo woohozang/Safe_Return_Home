@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI; // UI 관련
 
@@ -10,12 +12,16 @@ public class TrashCanRespawn : MonoBehaviour
     public float spawnInterval = 5.0f; // 생성 간격 (초)
     public int count = 1;
     private float nextSpawnTime = 0.0f;
+    public bool isGameOver = false;
 
     public Button cleanButton; // TrashCan을 제거할 버튼
     private GameObject currentTrashCan; // 현재 생성된 TrashCan
 
+    private List<GameObject> trashCanList = new List<GameObject>();
+
     void Update()
     {
+        if (isGameOver) return;
         if (Time.time >= nextSpawnTime)
         {
             nextSpawnTime = Time.time + spawnInterval;
@@ -37,6 +43,7 @@ public class TrashCanRespawn : MonoBehaviour
         if (trashCanPrefab != null)
         {
             GameObject newTrashCan = Instantiate(trashCanPrefab, spawnPos, Quaternion.identity);
+            trashCanList.Add(newTrashCan);
 
             // Add or get the TrashCanCollision script
             TrashCanCollision trashCanCollision = newTrashCan.GetComponent<TrashCanCollision>();
@@ -49,4 +56,17 @@ public class TrashCanRespawn : MonoBehaviour
             trashCanCollision.SetButton(cleanButton, newTrashCan);
         }
     }
+
+    public void ClearAllTrashCan()
+    {
+        foreach(GameObject trashcan in trashCanList)
+        {
+            if (trashcan != null)
+                Destroy(trashcan);
+        }
+
+        trashCanList.Clear();  //
+        isGameOver = true;     //
+    }
+
 }

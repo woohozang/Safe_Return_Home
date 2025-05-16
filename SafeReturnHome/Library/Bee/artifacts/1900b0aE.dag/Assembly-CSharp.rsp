@@ -364,6 +364,7 @@
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/Scripts/ChangeKinematic.cs"
 "Assets/Scripts/JoyStick.cs"
+"Assets/Scripts/LifePoint.cs"
 "Assets/Scripts/SpeedUpBtn.cs"
 "Assets/Scripts/TrashCanCollision.cs"
 "Assets/Scripts/TrashCanRespawn.cs"
