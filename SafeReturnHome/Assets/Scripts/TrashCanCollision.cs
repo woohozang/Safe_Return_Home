@@ -20,6 +20,10 @@ public class TrashCanCollision : MonoBehaviour
         {
             ShowButton();
         }
+        else if (collision.gameObject.CompareTag("Architecture"))
+        {
+            Destroy(gameObject);
+        }
     }
     void OnCollisionStay(Collision collision)
     {

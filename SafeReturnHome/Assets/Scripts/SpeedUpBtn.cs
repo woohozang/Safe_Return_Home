@@ -19,7 +19,7 @@ public class SpeedUpBtn : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         Debug.Log("Pointer Up");
         speedbtn.SetBoostedSpeed(false);
     }
-    void Update()
+    /*void Update()
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
@@ -29,5 +29,5 @@ public class SpeedUpBtn : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         {
             speedbtn.SetBoostedSpeed(false);
         }
-    }
+    }*/
 }

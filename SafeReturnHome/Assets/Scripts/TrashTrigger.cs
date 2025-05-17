@@ -16,7 +16,7 @@ public class TrashTrigger : MonoBehaviour
             Debug.Log("Player collided with trash. Destroying trash.");
             Destroy(gameObject);
         }
-        else if (other.CompareTag("Ground"))
+        else if (other.CompareTag("Ground") || other.CompareTag("Architecture"))
         {
             Destroy(gameObject);
         }
