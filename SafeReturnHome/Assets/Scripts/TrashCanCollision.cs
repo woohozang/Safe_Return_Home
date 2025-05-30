@@ -6,6 +6,7 @@ public class TrashCanCollision : MonoBehaviour
     private Button cleanButton; // 버튼
     private GameObject trashCan; // 해당 TrashCan 객체
     private bool isPlayerInside = false;
+    
 
     public void SetButton(Button button, GameObject trashCanObject)
     {
@@ -48,10 +49,12 @@ public class TrashCanCollision : MonoBehaviour
             cleanButton.onClick.RemoveAllListeners(); // 리스너 제거도 꼭!
         }
     }
-    void OnCleanButtonClick()
+    public void OnCleanButtonClick()
     {
         // TrashCan 제거
         Destroy(trashCan);
+
+        FindObjectOfType<RemoveTrashCan>().AddRemoveTrash(1);
 
         // 버튼 비활성화
         cleanButton.gameObject.SetActive(false);

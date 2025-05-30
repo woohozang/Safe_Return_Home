@@ -366,6 +366,7 @@
 "Assets/Scripts/ChangeKinematic.cs"
 "Assets/Scripts/JoyStick.cs"
 "Assets/Scripts/LifePoint.cs"
+"Assets/Scripts/RemoveTrashCan.cs"
 "Assets/Scripts/SpeedUpBtn.cs"
 "Assets/Scripts/TrashCanCollision.cs"
 "Assets/Scripts/TrashCanRespawn.cs"
