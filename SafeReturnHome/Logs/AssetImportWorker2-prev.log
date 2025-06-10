@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.61f1 (6c53ebaf375d) revision 7099371'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 32646 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 16060 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.61f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/WH/Documents/GitHub/Safe_Return_Home/SafeReturnHome
+C:/Users/wooho/Documents/GitHub/Safe_Return_Home/SafeReturnHome
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-58008
-Successfully changed project path to: C:/Users/WH/Documents/GitHub/Safe_Return_Home/SafeReturnHome
-C:/Users/WH/Documents/GitHub/Safe_Return_Home/SafeReturnHome
+50509
+Successfully changed project path to: C:/Users/wooho/Documents/GitHub/Safe_Return_Home/SafeReturnHome
+C:/Users/wooho/Documents/GitHub/Safe_Return_Home/SafeReturnHome
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,71 +49,71 @@ C:/Users/WH/Documents/GitHub/Safe_Return_Home/SafeReturnHome
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [33628]  Target information:
+Player connection [11400]  Target information:
 
-Player connection [33628]  * "[IP] 192.168.219.100 [Port] 0 [Flags] 2 [Guid] 1887676384 [EditorId] 1887676384 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R4COJG8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11400]  * "[IP] 192.168.0.24 [Port] 0 [Flags] 2 [Guid] 3234059815 [EditorId] 3234059815 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NG1TCM7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [33628] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [33628] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11400] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11400] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 21.80 ms, found 3 plugins.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 119.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.61f1 (6c53ebaf375d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/WH/Documents/GitHub/Safe_Return_Home/SafeReturnHome/Assets
+[Subsystems] Discovering subsystems at path C:/Users/wooho/Documents/GitHub/Safe_Return_Home/SafeReturnHome/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Renderer: NVIDIA GeForce MX450 (ID=0x1f97)
     Vendor:   NVIDIA
-    VRAM:     5966 MB
-    Driver:   32.0.15.6094
+    VRAM:     1928 MB
+    Driver:   27.21.14.5256
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.031210 seconds.
-- Loaded All Assemblies, in  0.519 seconds
+Registered in 0.020765 seconds.
+- Loaded All Assemblies, in  0.693 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 374 ms
+Android Extension - Scanning For ADB Devices 538 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.719 seconds
-Domain Reload Profiling: 1229ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  0.930 seconds
+Domain Reload Profiling: 1619ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (109ms)
-	LoadAllAssembliesAndSetupDomain (182ms)
-		LoadAssemblies (153ms)
+	RebuildCommonClasses (161ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (179ms)
-			TypeCache.Refresh (177ms)
-				TypeCache.ScanAssembly (161ms)
+		AnalyzeDomain (326ms)
+			TypeCache.Refresh (325ms)
+				TypeCache.ScanAssembly (314ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (720ms)
+	FinalizeReload (931ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (669ms)
+		SetupLoadedEditorAssemblies (885ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (476ms)
+			InitializePlatformSupportModulesInManaged (651ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (126ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,55 +122,55 @@ Domain Reload Profiling: 1229ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.800 seconds
+- Loaded All Assemblies, in  0.827 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.609 seconds
-Domain Reload Profiling: 1400ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  0.495 seconds
+Domain Reload Profiling: 1315ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (503ms)
-		LoadAssemblies (432ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (588ms)
+		LoadAssemblies (393ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (170ms)
-				TypeCache.ScanAssembly (152ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (610ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (272ms)
+				TypeCache.ScanAssembly (212ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (496ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (466ms)
+		SetupLoadedEditorAssemblies (379ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (299ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (22ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 9.55 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 8.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3207 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (55.0 KB). Loaded Objects now: 3678.
-Memory consumption went from 125.0 MB to 125.0 MB.
-Total: 2.965800 ms (FindLiveObjects: 0.250500 ms CreateObjectMapping: 0.192500 ms MarkObjects: 2.438800 ms  DeleteObjects: 0.083100 ms)
+Unloading 21 unused Assets / (54.9 KB). Loaded Objects now: 3679.
+Memory consumption went from 129.5 MB to 129.5 MB.
+Total: 3.760100 ms (FindLiveObjects: 0.282500 ms CreateObjectMapping: 0.157000 ms MarkObjects: 3.190500 ms  DeleteObjects: 0.128300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -180,161 +180,347 @@ AssetImportParameters requested are different than current active one (requested
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Timeover.cs: 280dc5ec0320dd272a07bc7c718d7522 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 410403.267106 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Bench1_a_Backrest_LP_0.prefab
-  artifactKey: Guid(589e902e1e292d64990d1ae7cf5b8018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Bench1_a_Backrest_LP_0.prefab using Guid(589e902e1e292d64990d1ae7cf5b8018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e997da51516af6465bc978e519091471') in 0.029503 seconds
+  Time since last request: 2040.601357 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/Paper/Grouped/Prefab_PaperGroup01.prefab
+  artifactKey: Guid(77d6cacfc9eb9f449937fcae7e8460cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/Paper/Grouped/Prefab_PaperGroup01.prefab using Guid(77d6cacfc9eb9f449937fcae7e8460cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '459322a271e5a64a3f68c48659e38d26') in 0.027691 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Building9_a_Block_LP_0.prefab
-  artifactKey: Guid(fc69f7f1a75df2749b64ef5a02a8c802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building9_a_Block_LP_0.prefab using Guid(fc69f7f1a75df2749b64ef5a02a8c802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '584fb50e7cd0bef4ec4fc23b5fd6e188') in 0.003556 seconds
+  Time since last request: 24.996456 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/Stain/Prefab_Stain1.prefab
+  artifactKey: Guid(082b603ae59d51e43ba3b0162c77fb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/Stain/Prefab_Stain1.prefab using Guid(082b603ae59d51e43ba3b0162c77fb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3f707fc258e442b1bc408e3003d64b70') in 0.002349 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Road1_c_Short_LP_0.prefab
-  artifactKey: Guid(e4be470c72a39914390a0b3f18f63a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Road1_c_Short_LP_0.prefab using Guid(e4be470c72a39914390a0b3f18f63a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e8f67a406a5f586e3b2cf206769b7854') in 0.002406 seconds
+  Time since last request: 22.010687 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/TrashPile/Prefab_Pile1.prefab
+  artifactKey: Guid(061212a3f10dff94aa04101489475a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/TrashPile/Prefab_Pile1.prefab using Guid(061212a3f10dff94aa04101489475a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '030fba83c61a8d97151166cd35016ab9') in 0.094254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 6.327254 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/Bottle/Mesh_BeerBottle.fbx
+  artifactKey: Guid(45fed21f12dc80841aba7eefe4614c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/Bottle/Mesh_BeerBottle.fbx using Guid(45fed21f12dc80841aba7eefe4614c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '227c7e8c7b48a1ebb2802a8af896c9b6') in 0.088699 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp1_b_TwoInline_LP_0.prefab
-  artifactKey: Guid(a599eed6b7e08e648a0338c16f53f082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp1_b_TwoInline_LP_0.prefab using Guid(a599eed6b7e08e648a0338c16f53f082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '44eb8fe203722e8454f635ab73cf95ce') in 0.002612 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/Bottle/Mesh_SodaCan_2.fbx
+  artifactKey: Guid(a3a731dc817d6ef47a2b35db91707d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/Bottle/Mesh_SodaCan_2.fbx using Guid(a3a731dc817d6ef47a2b35db91707d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd36adb05b3192ac61aace99f968b41ae') in 0.052398 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 20
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp2_a_Single_LP_0.prefab
-  artifactKey: Guid(108690a89a76ab74eacdc5a5665d6e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp2_a_Single_LP_0.prefab using Guid(108690a89a76ab74eacdc5a5665d6e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8c938b7e2bf380e51650a53e6fc957c0') in 0.003337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Pavement3_b_Turn_LP_0.prefab
-  artifactKey: Guid(b32383660bd549448b1d4b19f5e30af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Pavement3_b_Turn_LP_0.prefab using Guid(b32383660bd549448b1d4b19f5e30af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b35ee71a7ad9584b0f3bd974f9b07f35') in 0.003422 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/Bottle/Mesh_WaterBottle_S.fbx
+  artifactKey: Guid(8554d54535205974d883ba4c4e25d85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/Bottle/Mesh_WaterBottle_S.fbx using Guid(8554d54535205974d883ba4c4e25d85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0818c02f12c0a4c9e42765af770a0b42') in 0.026329 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Road2_a_Cross_LP_0.prefab
-  artifactKey: Guid(a75fbe306baef9649ad8d26f2371d7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Road2_a_Cross_LP_0.prefab using Guid(a75fbe306baef9649ad8d26f2371d7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e6830e177f28adfeb4fa15fe244cce39') in 0.002367 seconds
+  Time since last request: 0.278549 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/Food/Mesh_apple .fbx
+  artifactKey: Guid(45c09896a47c11449adad5da68a77bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/Food/Mesh_apple .fbx using Guid(45c09896a47c11449adad5da68a77bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '325675b540d74a7ef68336fbad5b5e08') in 0.029678 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Building12_a_MediumBlock_LP_0.prefab
-  artifactKey: Guid(76e93395c044d4342a7b276033fcd4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building12_a_MediumBlock_LP_0.prefab using Guid(76e93395c044d4342a7b276033fcd4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2b4aef6c116a939e87d77309920a65ba') in 0.003084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Building4_a_Medium_LP_0.prefab
-  artifactKey: Guid(fd8a784aae75f8744b691a69cb522305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building4_a_Medium_LP_0.prefab using Guid(fd8a784aae75f8744b691a69cb522305) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b1a81708c4632ddbfaa12097ffb6dc16') in 0.002656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Building3_a_Tall1_LP_0.prefab
-  artifactKey: Guid(4438e04aa1a794a4392df965055844b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building3_a_Tall1_LP_0.prefab using Guid(4438e04aa1a794a4392df965055844b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '48d6e327c5ed0e4a724832915399bb5d') in 0.002905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree6_c_Rectangular_LP_0.prefab
-  artifactKey: Guid(aff2ba904def4dc468a3abcffc484624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree6_c_Rectangular_LP_0.prefab using Guid(aff2ba904def4dc468a3abcffc484624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e02a300143308b5e362e2d1dccae696e') in 0.003063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Pavement2_b_Line_Short_LP_0.prefab
-  artifactKey: Guid(d57f70807d776784ea83613eb22900ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Pavement2_b_Line_Short_LP_0.prefab using Guid(d57f70807d776784ea83613eb22900ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '22aeb58af26db5b0b454bb22a94ee2ba') in 0.002416 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/Food/Mesh_carrot_chipped.fbx
+  artifactKey: Guid(f79cbf2a3ff2a0d4180269b8bf841c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/Food/Mesh_carrot_chipped.fbx using Guid(f79cbf2a3ff2a0d4180269b8bf841c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '92217e1983c82c929c2fb4b53b32ba4d') in 0.036239 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Grass2_a_LP_0.prefab
-  artifactKey: Guid(4b37f28e8a24dd144a8fafb4d7309066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Grass2_a_LP_0.prefab using Guid(4b37f28e8a24dd144a8fafb4d7309066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '799d24407d11caa12c56813ecc09d199') in 0.002411 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/Food/Mesh_toast.fbx
+  artifactKey: Guid(b3ccc5d029d75d948bcae0d3e14b9960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/Food/Mesh_toast.fbx using Guid(b3ccc5d029d75d948bcae0d3e14b9960) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3d7cb40b8b7b36462d562389b91d472c') in 0.028008 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree1_a_Cylindrical_LP_0.prefab
-  artifactKey: Guid(5f3f623fe259a03489d0e7880ed5cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree1_a_Cylindrical_LP_0.prefab using Guid(5f3f623fe259a03489d0e7880ed5cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fb7162d71c23dc4970d50fea5f293f6e') in 0.002701 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/Food/Mesh_carrot.fbx
+  artifactKey: Guid(731a279277cfbe04bac6fb9cb89ea84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/Food/Mesh_carrot.fbx using Guid(731a279277cfbe04bac6fb9cb89ea84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5705362a60de279ff487c04d1333cc52') in 0.026748 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Hedge1_c_Medium_LP_0.prefab
-  artifactKey: Guid(ce537aceb98895e4b9c5d0f5220b19c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Hedge1_c_Medium_LP_0.prefab using Guid(ce537aceb98895e4b9c5d0f5220b19c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f9df5008914e27b86e8a5593f87f1dd6') in 0.002852 seconds
+  Time since last request: 1.770432 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/TrashBag/Mesh_Bag1.fbx
+  artifactKey: Guid(ccd5354584729a647b392399d03c3bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/TrashBag/Mesh_Bag1.fbx using Guid(ccd5354584729a647b392399d03c3bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd1b65dfbcc45d09c939c32d6164adc5b') in 0.037908 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp1_a_FourLights_LP_0.prefab
-  artifactKey: Guid(87942fe74bd1e004e8912c2311198ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp1_a_FourLights_LP_0.prefab using Guid(87942fe74bd1e004e8912c2311198ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd6b7795ed1cfb367047cecbdcde6c0fe') in 0.002768 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/TrashBag/Mesh_Bag4.fbx
+  artifactKey: Guid(38596c652c3134a41ab7364769e641e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/TrashBag/Mesh_Bag4.fbx using Guid(38596c652c3134a41ab7364769e641e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c52e8a41f866fe284cf5b773f274ab04') in 0.040842 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp1_d_Single_LP_0.prefab
-  artifactKey: Guid(f58d979fd5d38804cbf9275268bee0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp1_d_Single_LP_0.prefab using Guid(f58d979fd5d38804cbf9275268bee0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a687a9b3818ad0684338dee812edbfc9') in 0.002649 seconds
+  Time since last request: 34.528762 seconds.
+  path: Assets/Prefabs/New Material.mat
+  artifactKey: Guid(0ba1ca117441154429bdec37b8f372a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New Material.mat using Guid(0ba1ca117441154429bdec37b8f372a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ca24e463a99f46e4565b6dc51a01c254') in 0.029786 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/TestTrash 2.prefab
+  artifactKey: Guid(a7dd2ff7d431fa44ead1ae400229eaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TestTrash 2.prefab using Guid(a7dd2ff7d431fa44ead1ae400229eaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '63b46b9d1529ca6879346cc83bc891a1') in 0.019842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 18.324237 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/FooDContainer/Prefab_BurgerBox.prefab
+  artifactKey: Guid(aa7a5e6f5619e454cbf84bede35b40f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/FooDContainer/Prefab_BurgerBox.prefab using Guid(aa7a5e6f5619e454cbf84bede35b40f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '99fd5329ad679139f5ad6602957c08bb') in 0.066321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.780685 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/Food/Prefab_apple.prefab
+  artifactKey: Guid(39bf54181b7271047a18d23758fd40be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/Food/Prefab_apple.prefab using Guid(39bf54181b7271047a18d23758fd40be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6c568e6094783db80513f05f429a1dee') in 0.043532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/Food/Prefab_carrot1.prefab
+  artifactKey: Guid(fd7892b5f829c6943b263aacac6592c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/Food/Prefab_carrot1.prefab using Guid(fd7892b5f829c6943b263aacac6592c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6873ac094dbc0f2104781755064f57fb') in 0.021844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/Food/Prefab_Applecore1.prefab
+  artifactKey: Guid(accbb7760ea4d3e4db66a2f18f8b0e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/Food/Prefab_Applecore1.prefab using Guid(accbb7760ea4d3e4db66a2f18f8b0e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cc0f8a5b1358d26726fef75b79e0c28f') in 0.017247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/Food/Prefab_egg_cracked1.prefab
+  artifactKey: Guid(cdb0cd0550e4cfd4286bd4e890072434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/Food/Prefab_egg_cracked1.prefab using Guid(cdb0cd0550e4cfd4286bd4e890072434) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '57d548b0a426525cd456d77b3e9f2f8a') in 0.019236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/Food/Prefab_Cabbage1.prefab
+  artifactKey: Guid(0a9f9bba226533f4496b54d47c437b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/Food/Prefab_Cabbage1.prefab using Guid(0a9f9bba226533f4496b54d47c437b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '199da941b6e99521f7ed6a11bf3ffe1e') in 0.016834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/Food/Prefab_Cabbage_quarter1.prefab
+  artifactKey: Guid(a4cf509ff06db1146bcafb0c15ea399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/Food/Prefab_Cabbage_quarter1.prefab using Guid(a4cf509ff06db1146bcafb0c15ea399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8db84c8f4a96633686574a04347dca45') in 0.014741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 6.024570 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/Food Container/Mesh_BurgerBox_Lid.fbx
+  artifactKey: Guid(9ac7d2f78c25faf44b7352c9bfc895e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/Food Container/Mesh_BurgerBox_Lid.fbx using Guid(9ac7d2f78c25faf44b7352c9bfc895e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f5a534a38e8e876f5873e7374b1d9921') in 0.046956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.208147 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/TrashPiile/Mesh_Pile1.fbx
+  artifactKey: Guid(67889f5a466cd024d85581dc2dc2bbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/TrashPiile/Mesh_Pile1.fbx using Guid(67889f5a466cd024d85581dc2dc2bbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '776969ff7c88316ad59d495300ea539a') in 0.043068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 40.050877 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/Flies.prefab
+  artifactKey: Guid(1f6ddcf71cdd6f34292571ad50d526c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/Flies.prefab using Guid(1f6ddcf71cdd6f34292571ad50d526c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '48e34ba06c0a1f8485f5d24c72d96280') in 0.110541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 56.199979 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/Bottle/Crushed/Mesh_BeerBottle_Cracked.fbx
+  artifactKey: Guid(3d33286af98131944a819435ab125bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/Bottle/Crushed/Mesh_BeerBottle_Cracked.fbx using Guid(3d33286af98131944a819435ab125bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b6453c0940949416350aa0eb34fcd7c7') in 0.127002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/Bottle/Crushed/Mesh_sodaCan1_Crushed.fbx
+  artifactKey: Guid(4f2a2dd132cdb6c4eb282402cc96be88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/Bottle/Crushed/Mesh_sodaCan1_Crushed.fbx using Guid(4f2a2dd132cdb6c4eb282402cc96be88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e3b3af5b0a774566b94ea1ed00f3525c') in 0.027092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 35.443241 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Material/FoodContainer/Mat_FoodContainer.mat
+  artifactKey: Guid(c21d6349e0536c944ba8be602723a630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Material/FoodContainer/Mat_FoodContainer.mat using Guid(c21d6349e0536c944ba8be602723a630) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '089ebbfa72c0d6f3cd5ad745ff784668') in 0.021079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.845722 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Material/Group_PrefabScene/Main_Camera_Profile.asset
+  artifactKey: Guid(9ece4b36b2faa4d44a87ee5a906afd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Material/Group_PrefabScene/Main_Camera_Profile.asset using Guid(9ece4b36b2faa4d44a87ee5a906afd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b27a3fd376cbafe3d4085ae2854710d4') in 0.002036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.087370 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Material/TrashContainer/Mat_TrashBin.mat
+  artifactKey: Guid(888fdeec27bae0c4498dfbdae8e480f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_WasteOvergrowth_SA/Material/TrashContainer/Mat_TrashBin.mat using Guid(888fdeec27bae0c4498dfbdae8e480f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '415014dae13f263e80db1855d4b51bbc') in 0.013183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server
